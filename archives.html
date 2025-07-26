@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Blog archives page">
+    <title>Archives - My Blog</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to external CSS -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+        nav {
+            text-align: center;
+            background-color: #444;
+            padding: 0.5rem;
+        }
+        nav a {
+            color: white;
+            margin: 0 1rem;
+            text-decoration: none;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+            margin: 20px;
+        }
+        .content {
+            max-width: 800px;
+            background-color: white;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .content h2 {
+            margin-top: 0;
+        }
+        .post-list {
+            list-style-type: none;
+            padding: 0;
+        }
+        .post-list li {
+            margin-bottom: 15px;
+        }
+        .post-list a {
+            color: #333;
+            text-decoration: none;
+            font-size: 1.2rem;
+        }
+        .post-list a:hover {
+            text-decoration: underline;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Welcome to My Blog</h1>
+        <p>Explore my archives of blog posts!</p>
+    </header>
+
+    <!-- Navigation Menu -->
+    <nav>
+        <a href="index">Home</a>
+        <a href="about">About</a>
+        <a href="archives">Archives</a>
+    </nav>
+
+    <!-- Main Content Area -->
+    <div class="container">
+        <div class="content">
+            <h2>Blog Archives</h2>
+            <p>Browse through my previous posts and find articles that interest you.</p>
+
+            <ul class="post-list">
+                <li><a href="first-post">Post Title 1 - Published on July 26, 2025</a></li>
+                <!--li><a href="#">Post Title 2 - Published on July 20, 2025</a></li>
+                <li><a href="#">Post Title 3 - Published on July 15, 2025</a></li>
+                <li><a href="#">Post Title 4 - Published on June 30, 2025</a></li>
+                <li><a href="#">Post Title 5 - Published on June 10, 2025</a></li>
+                <!-- Add more posts as needed -->
+            </ul>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2025 My Blog. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
