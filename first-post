@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Single blog post template">
+    <title>My Blog - Post Title</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to external CSS -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+        nav {
+            text-align: center;
+            background-color: #444;
+            padding: 0.5rem;
+        }
+        nav a {
+            color: white;
+            margin: 0 1rem;
+            text-decoration: none;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 20px;
+        }
+        .main-content {
+            max-width: 800px;
+            background-color: white;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .main-content h2 {
+            margin-top: 0;
+        }
+        .post-meta {
+            font-size: 0.9rem;
+            color: #666;
+        }
+        .post-content {
+            margin-top: 20px;
+            line-height: 1.8;
+        }
+        .sidebar {
+            margin-top: 30px;
+            width: 80%;
+            max-width: 300px;
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .sidebar h3 {
+            margin-top: 0;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Welcome to My Blog</h1>
+        <p>Sharing my thoughts and ideas with the world</p>
+    </header>
+
+    <!-- Navigation Menu -->
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+        <a href="#">Archives</a>
+    </nav>
+
+    <!-- Main Content Area for a Single Post -->
+    <div class="container">
+        <div class="main-content">
+            <h2>Post Title Here</h2>
+            <div class="post-meta">
+                <p><strong>Posted on:</strong> July 26, 2025 | <strong>By:</strong> Your Name</p>
+            </div>
+            <div class="post-content">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla venenatis ligula ut metus congue, non varius ligula lacinia. Donec id tincidunt magna. Integer euismod auctor erat at tempor. Nam fermentum auctor lorem, sed posuere sem facilisis eget. Pellentesque tincidunt, leo in vulputate iaculis, nulla dui malesuada odio, et volutpat arcu libero ac mi. Sed tincidunt purus quis odio scelerisque maximus.</p>
+
+                <p>Phasellus et mi id risus fringilla efficitur non eget nisi. Suspendisse fermentum ipsum vitae magna suscipit, at congue orci pharetra. Sed auctor sollicitudin justo, ut dictum sem malesuada nec. Donec faucibus laoreet arcu sed tincidunt. Curabitur in maximus sapien. Nam nec risus a erat aliquet dictum non et enim. Aenean tristique sapien sit amet est ullamcorper, ut vulputate eros pretium.</p>
+
+                <p>Proin varius libero nec viverra finibus. Integer suscipit justo nec arcu malesuada, nec feugiat ante fermentum. Integer et est non purus cursus consequat. Suspendisse ut enim ac leo placerat gravida. Phasellus auctor velit vel risus tincidunt iaculis. Vivamus tristique odio metus, ut tincidunt erat fermentum ac. Mauris eget nunc non ante ullamcorper bibendum ac et mauris.</p>
+
+                <p><strong>Tags:</strong> Technology, Web Design, Blogging</p>
+            </div>
+        </div>
+
+        <!-- Sidebar -->
+        <div class="sidebar">
+            <h3>About Me</h3>
+            <p>I'm a passionate blogger sharing insights and ideas on web design, technology, and creativity.</p>
+            <h3>Recent Posts</h3>
+            <ul>
+                <li><a href="#">Post Title 1</a></li>
+                <li><a href="#">Post Title 2</a></li>
+                <li><a href="#">Post Title 3</a></li>
+                <!-- Add more links to recent posts here -->
+            </ul>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2025 My Blog. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
